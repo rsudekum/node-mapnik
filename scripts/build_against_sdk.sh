@@ -18,7 +18,7 @@ function upgrade_gcc {
 
 if [[ "${CXX11:-false}" != false ]]; then
     # mapnik 3.x / c++11 enabled
-    HASH="1048-g439fc9f-cpp11"
+    HASH="1243-gebde535-cpp11"
     if [[ $UNAME == 'Linux' ]]; then
         CXX_NAME="gcc-4.8"
         CC="gcc-4.8";
