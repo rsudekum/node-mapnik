@@ -3,7 +3,7 @@
 all: mapnik.node
 
 ./node_modules/mapnik-vector-tile:
-	npm install mapnik-vector-tile sphericalmercator mocha
+	npm install nan aws-sdk mapnik-vector-tile sphericalmercator mocha
 
 ./node_modules/.bin/node-pre-gyp:
 	npm install node-pre-gyp
